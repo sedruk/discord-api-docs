@@ -195,6 +195,9 @@ A partial [guild](#DOCS_GUILD/guild-object) object. Represents an Offline Guild,
 | require_colons | bool | whether this emoji must be wrapped in colons |
 | managed | bool | whether this emoji is managed |
 
+>info
+>This structure is for custom emojis. For reactions, a custom emoji uses the format `name:id`, whereas standard emoji format is just the URL encoded unicode emoji string.
+
 ### Ban Object
 
 ###### Ban Structure
